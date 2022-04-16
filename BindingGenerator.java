@@ -4,22 +4,21 @@
 
 import java.io.File;
 import java.io.FileWriter;
-import java.io.IOException;
 
 import ghidra.app.script.GhidraScript;
-import ghidra.util.task.TaskMonitor;
-import ghidra.program.model.listing.Program;
-import ghidra.program.model.listing.Data;
-import ghidra.program.model.listing.FunctionManager;
-import ghidra.program.model.listing.Function;
+import ghidra.program.model.data.DataType;
 import ghidra.program.model.data.DataTypeManager;
 import ghidra.program.model.data.DataTypeWriter;
-import ghidra.program.model.data.DataType;
-import ghidra.program.model.data.ParameterDefinition;
-import ghidra.program.model.symbol.SymbolTable;
-import ghidra.program.model.symbol.Symbol;
-import ghidra.program.model.symbol.SymbolType;
 import ghidra.program.model.data.DataUtilities;
+import ghidra.program.model.data.ParameterDefinition;
+import ghidra.program.model.listing.Data;
+import ghidra.program.model.listing.Function;
+import ghidra.program.model.listing.FunctionManager;
+import ghidra.program.model.listing.Program;
+import ghidra.program.model.symbol.Symbol;
+import ghidra.program.model.symbol.SymbolTable;
+import ghidra.program.model.symbol.SymbolType;
+import ghidra.util.task.TaskMonitor;
 
 public class BindingGenerator extends GhidraScript {
 	
