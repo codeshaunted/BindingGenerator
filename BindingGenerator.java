@@ -1,5 +1,5 @@
 // Generates C bindings for an executable's data types and symbols.
-// @author Avery Townsend
+// @author codeshaunted
 // @category Symbol
 
 import java.io.File;
